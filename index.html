@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>MOTSDRAMA: For Everyone And Everything</title>
+		<link rel="icon" type="image/x-icon" href="./images/favicon.bmp">
+		<script>
+			//hi, sorry i stole all this code. im a dirty cheater, i know. i'll figure out how it works later (once i feel like learning javascript) but if you're wondering where i got it from, it's from here: https://stackoverflow.com/questions/75123454/how-to-display-random-text-everytime-when-page-loads
+			function randomizeFact(factData, factId) {
+	  			var randomIndex = Math.floor(Math.random() * factData.length);
+	  			var randomMessage = factData[randomIndex];
+	
+				var messageElement = document.getElementById(factId);
+				messageElement.innerHTML = randomMessage;
+			}
+	
+			function displayRandomMessage() {
+				var randomMessage = [
+					"get up on it like this",
+					"you can shine like silver all you want, but you're just aluminum",
+					"do not *whirr* underestimate us",
+					"money makin', money money makin', super disco disco breakin'",
+					"i don't want the world, i just want your half",
+					"funky crawl encapsulate",
+					"i'm so happy, i think i could cry!",
+					"bassheads, in a state of they own",
+					"today is not my day, tomorrow will be my day",
+					"would you like to come in now? would you like to come inside?",
+					"sexy lovers smokin' with passion",
+					"stare into the subliminal for as long as you can...",
+					"we are north american scum!",
+					"it's like having a leg in one hand, and a brerb in the other!",
+					"i'm NOT tim rogers, but you SHOULD be watching the action button review of boku no natsuyasumi!",
+					"if you don't comply, you gotta face The Bouncer!",
+					"bom hem",
+					"listen to Plumtree!",
+					"be true to your self...",
+					"what if you had a penny that doubled in size every day",
+					"meteor happens",
+					"they don't even know i'm jake...",
+					"go check out Retro Computer Cavern!",
+					"it's TWISTED!",
+					"rain, sleet, snow or hail, we'll deliver what you mail!",
+					"in my restless dreams i see that site... MOTSDRAMA...",
+					"ah, ah!",
+					"it's frog hoppin' good",
+					"the walls are shifting...",
+					"infinite turns forever...",
+					"welcome to the Human Labolatory World!",
+					"you scored more than 85%, which means... you go up a level!",
+					"i wanna be a cowboy, baby...",
+					"get TWISTED!",
+					"Uncle Phil, you gotta kick that man's BUTT!",
+					"Drink 5-Hour Energy!",
+					"It's less like a drink, and more like a drink",
+					"Ey G, could you make me a sandwich?",
+					"Ayo yo yo, ya'll can't stand right here",
+					"Something strange is happening in our town...",
+					"yes yes, so...",
+					"it's a little early, but thanks anyways...",
+					"Milkwalker says: STAY SAFE",
+					"this is illegal, you know...",
+					"Ah... I am alive.",
+					"It's a great day to have all of you here today!",
+					"come with us, and leave your earth behind!"
+				];
+				randomizeFact(randomMessage, "randomMessage");
+			}
+	
+			// Call the function when the page loads
+			window.onload = displayRandomMessage;
+		</script>
+	</head>
+
+<link rel="stylesheet" href="hildatheme.css">
+
+
+	<body>
+		
+		
+
+		<header>
+			
+                <img id="logoimg" src="./images/logo.png" alt="it's my logo... but it didn't load. well, what it was SUPPOSED to say was MOTSDRAMA.COM: a website for and about everyone and everything." title="Hey, that's MY logo! don't go stealin' it!"> 
+                
+				<div id="randomMessage"></div>
+				<nav>	
+                    <ul>
+                    <li><a id="navbar" href="./index.html">HOME</a></li>
+                    <li><a id="navbar" href="./GAMES.html">GAMEDEV</a></li>
+                    <li><a id="navbar" href="./THINGS.html">THINGS</a></li>
+                    <li><a id="navbar" href="./REVIEWS.html">REVIEWS</a></li>
+                    <li><a id="navbar" href="./ARTWORK.html">ARTWORK</a></li>
+                    <li><a id="navbar" href="./WORDS.html">WORDS</a></li>
+                    <li><a id="navbar" href="./STAMPS.html">STAMP COLLECTION</a></li>
+                    </ul>
+                </nav>
+				<br>
+		</header>
+
+	<main>
+		<div id="updateInfo">
+			<h1>What's new?</h1>
+			<h3>as of: 8:45 AM, 9/8/2024</h3>
+			<p>Content:</p>
+			<ul>
+				<li>Words: The Importance of Original Hardware</li>
+				<li>Review: Solitaire</li>
+			</ul>
+			<p>Misc:</p>
+			<ul>
+				<li>4 new stamps</li>
+				<li>New welcome messages</li>
+				<li>Backend fixes to spaghetti code</li>
+				
+			</ul>
+		</div>
+
+		<div class="hero" id="about">
+			<h1 style="font-family:georgia">WHAT IS MOTSDRAMA.COM? AND WHAT'S WITH THAT NAME, HUH?</h1>
+			<p>well first of all, stop yelling. it's giving me a headache. second of all, motsdrama.com is a host for all of my creative endeavors, ideas, projects, thoughts, discoveries, and much, MUCH more.
+			as for the name, it refers to a phenomenon known to happen in a favorite game of mine, Shin Megami Tensei: Nocturne. near the end of the game (no spoilers, of course) you fight a boss named Mot. 
+			he has the ability to give himself infinite turns in battle using a move called Beast Eye. think of it like a "using wishes to wish for more wishes" sort of deal. this leads to a difficult and 
+			often comedic battle where the boss will give himself a ton of turns, and then wipe the floor with your party. the Japanese community dubbed this occurence... 
+			</p>
+			<h1>"モト劇場"</h1><h3>(Mot's Theater, or Mot's Drama)</h3>
+			<p>
+			since it's like he's the one running the entire battle. 
+			now, this leads to the next obvious question. why did i name my website that? well, the real answer is that i thought that was a really cool sounding name and thought it'd make for a good username,
+			but i already have an established username online. so i decided to give it to this website instead. 
+			</p>
+		</div> 
+
+		
+
+		<div class="div3_block" id="newestVid">
+			<h1>check out my newest video!</h1>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/SkSfsIdA4Ko?si=DDvK-pNSY4wWKvZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<!--<div class="div2_block">
+			<div><p><ul><li>PLACEHOLDER: put a link to the newest Words post</li><li>PLACEHOLDER: put a link to the newest Things post</li><li>PLACEHOLDER: put a link to the newest Artwork post</li></ul></p></div>
+			<div><p>PLACEHOLDER: put a link to... something here</p></div>
+		</div>-->
+		
+		
+
+	</main>
+
+	<footer>
+		
+		<h3>www.motsdrama.com | Mot (that's me!) | last updated: 8:43 AM on September 8th, 2024</h3> 
+		
+	</footer>
+
+	</body>
+
+</html>
